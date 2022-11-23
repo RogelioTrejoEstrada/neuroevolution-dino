@@ -1,9 +1,13 @@
-import processing.core.PApplet;
+import game.SetupGame;
 
 public class Main {
+    /**
+     * 
+     * @param args
+     */
+    public static void main(String[] args) {
+        SetupGame app = new SetupGame();
 
-	public static void main(String[] args) {
-		PApplet.main("game.DinoGame");
-	}
-
+        app.runSettingsApp();
+    }
 }
